@@ -1,3 +1,3 @@
-p=int(input())
-area=3.14*p*p
-print(f"{area:.2f}")
+a=int(input())
+s=3.14*a*a
+print(f"{s:.2f}")
