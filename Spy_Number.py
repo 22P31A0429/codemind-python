@@ -1,13 +1,11 @@
 n=int(input())
-sum=0
-mul=1
-while(n>0):
-    r=n%10
-    sum=sum+r
-    mul=mul*r
+s,p=0,1
+while n>0:
+    rem=n%10
     n=n//10
-if(mul==sum):
+    s+=rem
+    p*=rem
+if s==p:
     print("Spy Number")
 else:
     print("Not Spy Number")
-    
