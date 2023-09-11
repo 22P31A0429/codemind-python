@@ -1,0 +1,17 @@
+a=int(input())
+b=a*a
+s=0
+while(a!=0):
+    r=a%10
+    s=s*10+r
+    a=a//10
+c=s*s
+s1=0
+while(c!=0):
+    r1=c%10
+    s1=s1*10+r1
+    c=c//10
+if(s1==b):
+    print("True")
+else:
+    print("False")
